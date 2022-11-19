@@ -1,0 +1,26 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass adams/scss/style.scss adams/css/style.css --no-source-map",
+    "style-min": "sass adams/scss/style.scss adams/css/style.min.css --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}

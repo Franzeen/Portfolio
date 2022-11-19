@@ -1,0 +1,73 @@
+/* Noto Sans for headlines and Ubuntu for other texts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+.header {
+    border-bottom: 4px dotted #000;
+
+    .site-header {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .logo {
+        margin-right: 1em;
+        float: left;
+    }
+
+    .nav {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+body {
+    line-height: $base-line-height;
+    background-color: #fff5ee;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: $magic-number * 2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: $magic-number auto;
+
+    p {
+        font-size: $base-font-size;
+        margin-bottom: $magic-number;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 600;
+        color: #333;
+    }
+}
+
+.footer {
+    border-top: 4px dotted #000;
+
+    .fab {
+        float: right;
+    }
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}

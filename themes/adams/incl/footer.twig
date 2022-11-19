@@ -1,5 +1,5 @@
 <div class="footer">
-    <div>
+    <div class="site-footer">
         <ul>
             <li><a href="https://picocms.org/docs/">Pico dokumentation</a></li>
             <li><a href="https://daringfireball.net/projects/markdown/basics">Introduktion till Markdown</a></li>
@@ -11,7 +11,7 @@
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
+            <i class="{{ social.icon }}" aria-hidden="true"></i>
             <span class="sr-only">{{ social.title }}</span>
         </a>
         {% endfor %}
