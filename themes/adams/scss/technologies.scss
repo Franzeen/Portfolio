@@ -1,0 +1,141 @@
+/* technologies.scss */
+.landingpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+    gap: 0.5em 0.5em;
+}
+
+.box {
+    border: 2px solid #333;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h2 {
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        background-color: rgba(128, 0, 128, 0.6);
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.box:hover {
+    box-shadow: 0 0 15px 10px rgba(97, 97, 97, 0.4);
+}
+
+.titel {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+
+    h1 {
+        position: absolute;
+        text-align: center;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        background-color: rgba(128, 0, 128, 0.6);
+    }
+}
+
+.html {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+
+    h2 {
+        padding: 1em 0;
+    }
+}
+
+.css {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.js {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.php {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.sqlite {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.git {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.python {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+@media (max-width: 768px) {
+    .landingpage {
+        display: grid;
+        grid-template-columns: minmax(100px, 300px);
+        grid-template-rows: repeat(8, 150px);
+        gap: 0.5em 0.5em;
+        justify-content: center;
+    }
+
+    .titel {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .html {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .css {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    
+    .js {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    
+    .php {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    
+    .sqlite {
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+    }
+    
+    .git {
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
+    }
+    
+    .python {
+        grid-column: 1 / 2;
+        grid-row: 8 / 9;
+    }
+}
