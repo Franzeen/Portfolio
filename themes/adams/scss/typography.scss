@@ -13,14 +13,19 @@ html {
         width: 50%;
     }
 
-    .logo {
-        margin-right: 1em;
-        float: left;
-    }
-
     .nav {
         margin: 0 auto;
         width: 50%;
+    }
+}
+
+.logo {
+    height: 100px;
+    
+    img {
+        margin-right: 1em;
+        float: left;
+        padding-bottom: 1em;
     }
 }
 
