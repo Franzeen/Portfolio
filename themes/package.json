@@ -7,9 +7,16 @@
     "example": "example"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass adams/scss/style.scss adams/css/style.css --no-source-map",
-    "style-min": "sass adams/scss/style.scss adams/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass adams/scss/style.scss:adams/css/style.css adams/scss/style-dark.scss:adams/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass adams/scss/style.scss:adams/css/style.min.css adams/scss/style-dark.scss:adams/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass adams/scss/style-dark.scss adams/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass adams/scss/style-dark.scss adams/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass adams/scss/style.scss adams/css/style.css --no-source-map",
+    "style-light-min": "sass adams/scss/style.scss adams/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
