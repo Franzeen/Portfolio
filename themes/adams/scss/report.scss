@@ -6,6 +6,7 @@
 
     img {
         max-height: 400px;
+        width: 100%;
         border: $report-border;
         filter: $greyscale;
     }
@@ -20,5 +21,6 @@
 
     .footnotes a {
         color: $font-color;
+        word-wrap: break-word;
     }
 }
