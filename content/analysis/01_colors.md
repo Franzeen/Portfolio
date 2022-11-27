@@ -99,7 +99,7 @@ I vissa fall förekommer typsnittet i italic stil, bland annat där accentfärge
 
 
 Jag tror att alla tre hemsidornas färgval och typografi motsvarar den profil de eftersträvar.
-Det är två olika sorters hemsidor, Aftonbladet och Expressen använder mycket kontrast för att fånga
+Det är två olika sorters hemsidor, nyhetsajter och matvarubutik. Aftonbladet och Expressen använder mycket kontrast för att fånga
 läsarens intresse vid de olika rubrikerna och artiklarna.
 Medans Icas hemsida ingav ett mer lugn och harmoniskt intryck för ögat men med kontrast på de rubriker de anser är
 viktiga för att fånga kundens intresse, alltså få kunden att klicka vidare i förhoppning att få fler kunder.
@@ -114,6 +114,10 @@ huvudsakligen svart till sina rubriker, men jag tror att största anledning till
 Färgen rött speglar spänning, dramatik och är en rik färg medans gul är en aktiv färg som är väldigt synlig.
 Röd rubrik på vissa nyhetsartiklar används för att dra läsaren till utvalda artiklar, man hade även kunnat använda gult. Men gult används oftast för artiklar angående rabatterat pris eller artiklar som kräver betalfunktion.[^3]
 
+Vid val av teckensnitt har samtliga hemsidor valt ett sans-serif men jag tror inte att det är sans-serif i sig som gör texten extra tydlig och läsbar utan istället användningen av textstorleken.
+Enligt synskadades Riskförbund finns det ingen forskning på att sans-seriff skulle vara mer lättläst än serif men när man frågat personer med synnedsättning angående vilket typsnitt som anses vara mest lättläst har sans-seriffer varit på första plats. [^4]
+Samtliga hemsidor i denna analys använder sig av stor teckenstorlek och av teckensnitt som inte är tunna utan istället är fylliga och tydliga.
+
 Övrigt
 -----------------------
 
@@ -125,3 +129,4 @@ Referenser
 [^1]: https://topdog.nu/storsta-sajterna-google/ (Besökt 2022-11-27)
 [^2]: https://color.adobe.com/sv/create/color-wheel
 [^3]: The Principles Of Beautiful Web Design, kapitel 2. Color.
+[^4]: https://www.srf.nu/contentassets/cd21dc1889bf4883979c8a5a69206301/text-som-fler-kan-lasa_tillganglig.pdf (Besökt 2022-11-27)
