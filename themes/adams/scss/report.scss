@@ -1,0 +1,18 @@
+/** report.scss */
+.report {
+    width: 80%;
+    border: $report-border;
+    padding: 1em;
+
+    img {
+        max-height: 400px;
+    }
+
+    figcaption {
+        font-style: italic;
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+}

@@ -6,32 +6,13 @@ html {
 }
 
 .header {
-    border-bottom: 4px dotted #000;
-
-    .site-header {
-        margin: 0 auto;
-        width: 50%;
+    .nav a {
+        color: $link-color;
     }
 
-    .nav {
-        margin: 0 auto;
-        width: 50%;
+    .title a {
+        color: $font-color;
     }
-}
-
-.logo {
-    height: 100px;
-    
-    img {
-        margin-right: 1em;
-        float: left;
-        padding-bottom: 1em;
-    }
-}
-
-body {
-    line-height: $base-line-height;
-    background-color: #fff5ee;
 }
 
 * {
@@ -49,27 +30,25 @@ h6 {
 }
 
 .main {
-    max-width: 67rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin: $magic-number auto;
-
     p {
         font-size: $base-font-size;
         margin-bottom: $magic-number;
         font-family: 'Ubuntu', sans-serif;
         font-size: 600;
-        color: #333;
+        color: $font-color;
     }
 }
 
 .footer {
-    border-top: 4px dotted #000;
+    a {
+        color: $font-color;
+    }
 
-    .fab {
-        float: right;
+    .social a {
+        color: $link-color;
     }
 }
+
 
 @media (min-width: 64em) {
     html {

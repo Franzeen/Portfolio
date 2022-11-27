@@ -6425,12 +6425,12 @@ template {
 /* variables */ /** base.scss */
 body {
   line-height: 1.4;
-  background-color: #fff5ee;
-  color: #333;
+  background-color: #332e30;
+  color: #ababab;
 }
 
 .header {
-  border-bottom: 4px dotted #000;
+  border-bottom: 4px dotted #fff;
 }
 .header .site-header {
   margin: 0 auto;
@@ -6458,7 +6458,7 @@ body {
 }
 
 .footer {
-  border-top: 4px dotted #000;
+  border-top: 4px dotted #fff;
 }
 .footer .fab {
   float: right;
@@ -6470,10 +6470,10 @@ html {
 }
 
 .header .nav a {
-  color: #806450;
+  color: #03dac5;
 }
 .header .title a {
-  color: #333;
+  color: #ababab;
 }
 
 * {
@@ -6495,14 +6495,14 @@ h6 {
   margin-bottom: 1.54rem;
   font-family: "Ubuntu", sans-serif;
   font-size: 600;
-  color: #333;
+  color: #ababab;
 }
 
 .footer a {
-  color: #333;
+  color: #ababab;
 }
 .footer .social a {
-  color: #806450;
+  color: #03dac5;
 }
 
 @media (min-width: 64em) {
@@ -6784,7 +6784,7 @@ a {
 /** report.scss */
 .report {
   width: 80%;
-  border: 2px solid #806450;
+  border: 4px solid #03dac5;
   padding: 1em;
 }
 .report img {
