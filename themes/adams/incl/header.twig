@@ -14,7 +14,12 @@
     <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
+    {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
+
     <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
     <link rel="stylesheet" href="{{ theme_url }}/css/mobile-menu.css" type="text/css" />
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 </head>
