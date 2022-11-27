@@ -106,8 +106,8 @@ viktiga för att fånga kundens intresse, alltså få kunden att klicka vidare i
 
 Analys
 -----------------------
-Samtliga hemsidor använder sig av vit bakgrund, vitt anses inom den västerländska kulturen att vara en färg som står på perfektion, ljus och renhet.
-Vilket kan vara en av anledningar till att just en nyhetssida väljer att använda vitt som bakgrundsfärg, för att få trovärdighet vid första anblick från läsaren. Finns även anledning av en matvarubutik att använda sig av vitt och då dels för betydelsen av renhet. Förvånade mig lite att de gick på en väldigt ljus nyans av orange och inte en tydligare orange färg eftersom just färgen orange ska främja mat och bidra med hunger, anledningen till ljus orange är förmodligen för att behålla det monokromiska färgschemat och behålla det harmoniska intrycket på hemsidan.
+Samtliga hemsidor använder sig av vit bakgrund, vitt anses inom den västerländska kulturen att vara en färg som står för perfektion, ljus och renhet.
+Vilket kan vara en av anledningar till att just en nyhetssida väljer att använda vitt som bakgrundsfärg, för att få trovärdighet vid första anblick från läsaren. Finns även anledning av en matvarubutik att använda sig av vitt och då dels för betydelsen av renhet. Förvånade mig lite att de gick på en väldigt ljus nyans av orange och inte en tydligare orange färg eftersom just färgen orange ska främja mat och bidra med hunger, vilket kan leda till ökad konsumption av mat. Anledningen till ljus orange är förmodligen för att behålla det monokromiska färgschemat och på såsätt även behålla det harmoniska intrycket på hemsidan.
 
 Färgen svart används till rubriker av samtliga hemsidor, rött och gult används även som rubrik för nyhetssajterna vid vissa tillfällen. Färgen svart står för kraft, elegans och styrka. Vilket kan vara en anledning till att man som nyhetsajt använder 
 huvudsakligen svart till sina rubriker, men jag tror att största anledning till just svart för samtliga hemsidor är på grund av kontrasten och läsbarheten, tillsammans med valda typsnitt.
