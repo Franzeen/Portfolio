@@ -8,4 +8,10 @@ Social:
     - title: Link till Adams LinkedIn
       url: https://www.linkedin.com/in/adam-franz%C3%A9n-107247137/
       icon: fab fa-linkedin
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
