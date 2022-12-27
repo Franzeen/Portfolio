@@ -6787,12 +6787,71 @@ a {
   border: 2px solid #806450;
   padding: 1em;
 }
-.report img {
-  max-height: 400px;
+.report figure img {
+  max-width: 50%;
+  border: 2px solid #806450;
+  filter: grayscale(0%);
 }
 .report figcaption {
   font-style: italic;
 }
 .report h2 {
   text-decoration: underline;
+}
+.report .footnotes a {
+  color: #333;
+  word-wrap: break-word;
+}
+
+/* gallery.scss */
+.galleryTitle {
+  text-align: center;
+}
+
+.galleryPage {
+  display: grid;
+  grid-template-columns: 20em 20em 20em;
+  grid-template-rows: repeat(3, 20em);
+  gap: 0.5em 0.5em;
+}
+
+picture {
+  box-shadow: 10px 10px 20px 15px whitesmoke;
+}
+
+.picture1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.picture2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.picture3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.picture4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.picture5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.picture6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+@media (max-width: 480px) {
+  .galleryPage {
+    display: flex;
+    flex-direction: column;
+  }
 }

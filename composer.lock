@@ -112,16 +112,16 @@
         },
         {
             "name": "mos/cimage",
-            "version": "v0.8.1",
+            "version": "v0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/cimage.git",
-                "reference": "024905676145ee8a000fb0b6735ce6f8ba98f427"
+                "reference": "1666ea14125fba1fd40ce35389fce7f9c1747f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/cimage/zipball/024905676145ee8a000fb0b6735ce6f8ba98f427",
-                "reference": "024905676145ee8a000fb0b6735ce6f8ba98f427",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/1666ea14125fba1fd40ce35389fce7f9c1747f56",
+                "reference": "1666ea14125fba1fd40ce35389fce7f9c1747f56",
                 "shasum": ""
             },
             "require": {
@@ -168,12 +168,7 @@
                 "image",
                 "imageprocessing"
             ],
-            "support": {
-                "docs": "http://dbwebb.se/opensource/cimage",
-                "issues": "https://github.com/mosbth/cimage/issues",
-                "source": "https://github.com/mosbth/cimage/tree/master"
-            },
-            "time": "2020-06-08T10:38:44+00:00"
+            "time": "2022-11-17T15:08:48+00:00"
         },
         {
             "name": "picocms/pico",
@@ -265,16 +260,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.26.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4"
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
-                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/5bbc823adecdae860bb64756d639ecfec17b050a",
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +284,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -326,9 +321,6 @@
                 "polyfill",
                 "portable"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.26.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -343,7 +335,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T11:49:31+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -485,5 +477,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "1.1.0"
 }

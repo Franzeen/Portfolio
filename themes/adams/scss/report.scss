@@ -4,9 +4,8 @@
     border: $report-border;
     padding: 1em;
 
-    img {
-        max-height: 400px;
-        width: 100%;
+    figure img {
+        max-width: 50%;
         border: $report-border;
         filter: $greyscale;
     }
