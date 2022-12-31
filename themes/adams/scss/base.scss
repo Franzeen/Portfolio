@@ -5,30 +5,6 @@ body {
     color: $font-color;
 }
 
-.header {
-    border-bottom: $border;
-
-    .site-header {
-        margin: 0 auto;
-        width: 50%;
-    }
-
-    .nav {
-        margin: 0 auto;
-        width: 50%;
-    }
-}
-
-.logo {
-    height: 100px;
-    
-    img {
-        margin-right: 1em;
-        float: left;
-        padding-bottom: 1em;
-    }
-}
-
 .main {
     max-width: 67rem;
     padding-left: 1.5rem;
@@ -36,10 +12,10 @@ body {
     margin: $magic-number auto;
 }
 
-.footer {
-    border-top: $border;
+// .footer {
+//     border-top: $border;
     
-    .fab {
-        float: right;
-    }
-}
+//     .fab {
+//         float: right;
+//     }
+// }

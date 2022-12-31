@@ -1,0 +1,22 @@
+/** footer.scss */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $magic-number;
+    border-top: $border;
+    
+    // .fab,
+    // .fas
+    //  {
+    //     float: right;
+    // }
+
+    a {
+        color: $font-color;
+    }
+}
+
+.social a {
+    font-size: 3rem;
+}

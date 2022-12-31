@@ -1,0 +1,35 @@
+/** header */
+.header {
+    border-bottom: $border;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+
+    img {
+        max-width: 75%;
+    }
+}
+
+.nav {
+    font-size: $base-font-size;
+}
+
+.nav a {
+    color: $link-color;
+}
+
+.title {
+    padding-top: 16%;
+}
+
+.title a {
+    color: $font-color;
+    text-align: center;
+} 

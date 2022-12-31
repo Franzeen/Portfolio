@@ -6,7 +6,7 @@
 .gallerypage {
     display: grid;
     grid-template-columns: 20em 20em 20em;
-    grid-template-rows: repeat(4, 20em);
+    grid-template-rows: repeat(3, 20em);
     gap: 0.5em 0.5em;
     place-items: center;
 }

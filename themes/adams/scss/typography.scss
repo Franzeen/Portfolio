@@ -5,16 +5,6 @@ html {
     font-size: 100%;
 }
 
-.header {
-    .nav a {
-        color: $link-color;
-    }
-
-    .title a {
-        color: $font-color;
-    }
-}
-
 * {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -36,16 +26,6 @@ h6 {
         font-family: 'Ubuntu', sans-serif;
         font-size: 600;
         color: $font-color;
-    }
-}
-
-.footer {
-    a {
-        color: $font-color;
-    }
-
-    .social a {
-        color: $link-color;
     }
 }
 
