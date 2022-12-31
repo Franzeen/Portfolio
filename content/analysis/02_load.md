@@ -31,7 +31,7 @@ Resultat
 
 Nedan syns bilder tagna från de valda hemsidorna tillsammans med bild från mätningarna utförda med hjälp utav PageSpeed Insight.
 
-#### Aftonbladet
+### Aftonbladet
 
 <figure>
     <img src="%base_url%/assets/img/rapport/load/aftonbladet.JPG" alt="Aftonsbladets hemsida">
@@ -55,7 +55,7 @@ I figur 3 presenteras samma test men för mobila enheter och även där får Aft
 </figure>
 
 
-#### Expressen
+### Expressen
 
 <figure>
     <img src="%base_url%/assets/img/rapport/load/expressen.JPG" alt="Expressens hemsida">
@@ -78,7 +78,7 @@ TBT är den tid webbsidan är blockerad från att användaren ska kunna intergre
 </figure>
 
 
-#### Wikipedia
+### Wikipedia
 
 <figure>
     <img src="%base_url%/assets/img/rapport/load/wikipedia.JPG" alt="Wikipedias hemsida">
@@ -99,7 +99,7 @@ Mobila enheter har liknande resultat som dator-enhet när testet utförs och äv
     <figcaption>Figur 9. Wikipedia PageSpeedmätning mobilt.</figcaption>
 </figure>
 
-#### Sammanställd mätning
+### Sammanställd mätning
 
 Nedan är en tabell med mätningar utförda med Google Chromes DevTools samt PageSpeed Insight.
 <iframe class="measure" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_GB6FIp_Oe_RQi8E9bB0tfycVr3t3eWHThsyyr7vcUIiJySm-lulHh_OEclNdkvrKW0XLaDtBuZ16/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="Webbplatsmätning" width="900" height="450"></iframe>

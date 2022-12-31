@@ -13,6 +13,7 @@ HTML innehåller en rad olika element som används för att beskriva innehåll o
 
 Elementen i HTML är beskrivna av taggar som säger till webbläsaren hur innehåll ska presenteras.
 
+------------------------------------------------------------------------------------------------------------------------
 PHP
 ---------------
 
@@ -20,6 +21,7 @@ PHP, Hy är ett skriptspråk som kan användas för att göra webbplatserna dyna
 
 PHP är ett objekt-orienterat programmeringsspråk som kan innehålla både text, HTML, CSS, JavaScript och PHP-kod.
 
+------------------------------------------------------------------------------------------------------------------------
 CSS
 ---------------
 
@@ -28,17 +30,20 @@ I sina CSS-sheets pekar man på de element man vill påverkar och beskriver hur 
 
 Användning av CSS är kraftfullt och sparar mycket tid då man med hjälp av CSS kan kontrollera layout och design av flera webbsidor på en och samma gång.
 
+------------------------------------------------------------------------------------------------------------------------
 Sass
 ---------------
 
 Sass, Syntactically Awesome Stylesheet, är en extension för CSS som hjälper oss att få en bättre struktur.
 Sass tillåter oss att använda funktioner som inte finns i CSS, exempelvis variabler, nested rules, mixins etc.
 
+------------------------------------------------------------------------------------------------------------------------
 Git
 ---------------
 
 Git används för versionshantering. Git skapades 2005 av Linus Torvalds för att hantera ändringar för Linux-kärnan
 
+------------------------------------------------------------------------------------------------------------------------
 JavaScript
 ---------------
 

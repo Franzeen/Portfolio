@@ -72,6 +72,6 @@ Template: gallery
 
 <div class="frame picture7">
     <div class="embed-container">
-        <iframe src="https://www.youtube.com/embed/8KujGcZ5f7U" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/8KujGcZ5f7U" title="Winter nature video" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
